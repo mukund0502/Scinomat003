@@ -1,4 +1,6 @@
-/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+a{
+  text-decoration: none;
+}
 .mat-sc-copy-main {
   display: flex;
   flex-direction: column;
@@ -25,6 +27,7 @@
   background: var(--src) center center/contain no-repeat;
 }
 .mat-sc-copy-section1__cover-block1.layout {
+  background-size: cover;
   position: absolute;
   top: 8px;
   height: -webkit-min-content;
@@ -425,9 +428,10 @@
   margin: 449px 9.1% 237px 11.6%;
 }
 .mat-sc-copy-section1__cover-block {
+  background: linear-gradient(0deg, #12212e  67%, #ffffff 20%);
   display: flex;
   flex-direction: column;
-  background-color: #12212e;
+  /* background-color: #12212e; */
 }
 .mat-sc-copy-section1__cover-block.layout {
   position: relative;
@@ -453,6 +457,8 @@
   display: flex;
 }
 .mat-sc-copy-section1__flex2.layout {
+  color: red;
+  font-size: 80px;
   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
@@ -542,11 +548,15 @@
   display: flex;
 }
 .mat-sc-copy-section1__block25.layout {
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-stretch: expanded;
   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  margin: 15px 0px 0px;
+
 }
 .mat-sc-copy-section1__block25-item {
   display: flex;
@@ -818,6 +828,7 @@
   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
+  font-weight: lighter;
   height: min-content;
   width: 62.13%;
   margin: 85px 37.87% 0px 0%;
@@ -831,6 +842,8 @@
   margin: 59px 48.13% 11px 0%;
 }
 .mat-sc-copy-section1__highlights21 {
+  font-weight: 100;
+  color: #0f75bc;
   overflow: visible;
   margin-top: 0px;
   margin-bottom: 0px;

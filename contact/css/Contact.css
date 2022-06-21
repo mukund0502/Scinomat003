@@ -1,4 +1,7 @@
-/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
 .contact-main {
   display: flex;
   flex-direction: column;
@@ -424,6 +427,7 @@
   margin: 166px 0px 0px 4px;
 }
 .contact-section1__highlights1 {
+  border: 0px;
   display: flex;
   align-items: center;
   font: 16px/1.5 "Roboto", Helvetica, Arial, serif;
@@ -431,6 +435,8 @@
   letter-spacing: 0px;
 }
 .contact-section1__highlights1.layout {
+  
+  border: 0px 0px 0px 0px;
   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
