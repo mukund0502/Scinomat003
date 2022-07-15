@@ -1,5 +1,5 @@
 // var btn = document.getElementsByClassName("contact-section1__block19 layout");
-var whatwedo = document.getElementsByClassName("home-section1__block24 layout");
+var whatwedo = document.getElementsByClassName("contact-section1__block21 layout");
 var toshow1 = document.getElementsByClassName("home-section1__block53 layout");
 var products = document.getElementById("products");
 var toshow2 = document.getElementsByClassName("home-section1__block51 layout");
@@ -10,6 +10,8 @@ var btn = document.getElementsByClassName("contact-section1__block19 layout");
 var connect = document.getElementsByClassName("connect");
 var closekey = document.getElementsByClassName("closekey");
 
+console.log(whatwedo);
+console.log(products);
 btn[0].addEventListener("click",()=>{
     connect[0].style.right = "0px";
     connect[0].style.display = "block";

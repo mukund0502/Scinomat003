@@ -1,44 +1,126 @@
 <div class="home-section1__block51 layout">
-            <div class="home-section1__block52 layout">
-              <div class="home-section1__paragraph-body-box layout">
-                <pre class="home-section1__paragraph-body">
+  <div class="home-section1__block52 layout">
+    <div class="home-section1__paragraph-body-box layout">
+      <pre class="home-section1__paragraph-body">
 High energy planetary
-ball mill</pre
-                >
-              </div>
-              <div class="home-section1__paragraph-body1 layout">Accessories</div>
-              <div class="home-section1__paragraph-body2 layout">Nano fluids &amp; Nano powders</div>
-            </div>
-          </div>
-          <div class="home-section1__block53 layout">
-            <div class="home-section1__block54 layout" id="overview">
-              <div class="home-section1__paragraph-body3 layout">Overview</div>
-              <div class="home-section1__block54-spacer"></div>
-              <div class="home-section1__block54-item">
-                <div
-                  style="--src:url(/assets/67fdf6c43cdee78ed291952c4e5f5e6a.png)"
-                  class="home-section1__image42 layout"
-                ></div>
-              </div>
-            </div>
-            <div class="home-section1__block54 layout " id="products" >
-              <div class="home-section1__paragraph-body4 layout">Products</div>
-              <div class="home-section1__block54-spacer1"></div>
-              <div class="home-section1__block54-item">
-                <div
-                  style="--src:url(/assets/67fdf6c43cdee78ed291952c4e5f5e6a.png)"
-                  class="home-section1__image42 layout"
-                ></div>
-              </div>
-            </div>
-            <div class="home-section1__block54 layout1" id="services">
-              <div class="home-section1__paragraph-body5 layout">Services</div>
-              <div class="home-section1__block54-spacer2"></div>
-              <div class="home-section1__block54-item">
-                <div
-                  style="--src:url(/assets/67fdf6c43cdee78ed291952c4e5f5e6a.png)"
-                  class="home-section1__image42 layout"
-                ></div>
-              </div>
-            </div>
-          </div>
+ball mill</pre>
+    </div>
+    <div class="home-section1__paragraph-body1 layout">Accessories</div>
+    <div class="home-section1__paragraph-body2 layout">Nano fluids &amp; Nano powders</div>
+  </div>
+</div>
+
+
+<div class="home-section1__block53 layout">
+  <div class="home-section1__block54 layout" id="overview">
+    <div class="home-section1__paragraph-body3 layout">Overview</div>
+    <div class="home-section1__block54-spacer"></div>
+    <div class="home-section1__block54-item">
+      <div style="--src:url(/assets/67fdf6c43cdee78ed291952c4e5f5e6a.png)" class="home-section1__image42 layout"></div>
+    </div>
+  </div>
+  <div class="home-section1__block54 layout " id="products">
+    <div class="home-section1__paragraph-body4 layout">Products</div>
+    <div class="home-section1__block54-spacer1"></div>
+    <div class="home-section1__block54-item">
+      <div style="--src:url(/assets/67fdf6c43cdee78ed291952c4e5f5e6a.png)" class="home-section1__image42 layout"></div>
+    </div>
+  </div>
+  <div class="home-section1__block54 layout1" id="services">
+    <div class="home-section1__paragraph-body5 layout">Services</div>
+    <div class="home-section1__block54-spacer2"></div>
+    <div class="home-section1__block54-item">
+      <div style="--src:url(/assets/67fdf6c43cdee78ed291952c4e5f5e6a.png)" class="home-section1__image42 layout"></div>
+    </div>
+  </div>
+</div>
+
+
+.home-section1__block53.layout {
+  visibility: visible;
+  position: absolute;
+  top: 43px;
+  height: 112px;
+  left: 578px;
+  width: 189px;
+  min-width: 189px;
+}
+.home-section1__block53.layout:hover {
+  visibility: visible;
+}
+.home-section1__block54.layout {
+  
+  position: relative;
+  width: 100%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 16px 24px 0px;
+}
+.home-section1__paragraph-body3.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.home-section1__block54-spacer {
+  flex: 0 1 68px;
+}
+.home-section1__block54-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 6px;
+}
+.home-section1__image42 {
+  background: var(--src) center center/contain no-repeat;
+}
+.home-section1__image42.layout {
+  position: relative;
+  height: 10px;
+  width: 6px;
+  min-width: 6px;
+  margin: 3px 0px;
+}
+.home-section1__paragraph-body4 {
+  display: flex;
+  align-items: center;
+  font: 500 13.3299999237px/1.2 "Montserrat", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px;
+}
+.home-section1__paragraph-body4.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.home-section1__block54-spacer1 {
+  flex: 0 1 70px;
+}
+.home-section1__block54.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 16px 24px;
+}
+.home-section1__paragraph-body5 {
+  display: flex;
+  align-items: center;
+  font: 500 13.3299999237px/1.2 "Montserrat", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px;
+}
+.home-section1__paragraph-body5.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.home-section1__block54-spacer2 {
+  flex: 0 1 76px;
+}

@@ -2243,10 +2243,12 @@ a{
   height: min-content;
 }
 
-.home-section1__text-body2.layout1:hover ~ .home-section1__block51.layout {
+/* .home-section1__text-body2.layout1:hover ~ .home-section1__block51.layout {
   color:#0f75bc;
   visibility: visible;
-}
+} */
+
+
 .home-section1__block25-spacer {
   flex: 0 1 8px;
 }
@@ -2761,7 +2763,7 @@ a{
   left: 0px;
   right: 0px;
   min-width: fit-content;
-  width: 11.53%;
+  width: 170px;
   padding: 17px;
   margin: 0px 29.31% 0px 59.17%;
 }
@@ -2909,6 +2911,7 @@ a{
 .home-section3__block34.layout {
   position: absolute;
   overflow: hidden;
+  text-align: center;
   top: 344px;
   height: -webkit-min-content;
   height: -moz-min-content;
@@ -2916,7 +2919,7 @@ a{
   bottom: 426px;
   left: 0px;
   right: 0px;
-  width: 11.04%;
+  width: 170px;
   padding: 20px;
   margin: 0px 83.96% 0px 5%;
 }
@@ -2941,7 +2944,7 @@ a{
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  width: 28.89%;
+  width: 416px;
   margin: 240px 66.11% 522px 5%;
 }
 .home-section3__big-title1-box {
@@ -2958,7 +2961,7 @@ a{
   left: 0px;
   vertical-align: middle;
   right: 0px;
-  width: 19.72%;
+  width:284px;
   margin: 0px 75.28% 0px 5%;
 }
 .home-section3__big-title1 {
@@ -2987,7 +2990,7 @@ a{
   bottom: 722px;
   left: 0px;
   right: 0px;
-  width: 16.6%;
+  width: 239px;
   margin: 0px 78.4% 0px 5%;
 }
 .home-section4__section4 {
@@ -3038,7 +3041,7 @@ a{
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  width: 60.33%;
+  width: fit-content;
   margin: 0px auto;
 }
 .home-section4__hero-title4 {
@@ -3052,10 +3055,11 @@ a{
 }
 .home-section4__hero-title4.layout {
   position: relative;
+  width: fit-content;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  margin: 16px 0px 0px;
+  margin: 16px auto;
 }
 .home-section4__block36 {
   display: flex;
@@ -3067,7 +3071,7 @@ a{
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  width: 34.68%;
+  width: fit-content;
   margin: 64px auto 18px;
 }
 .home-section4__highlights {

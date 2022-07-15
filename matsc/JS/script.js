@@ -1,4 +1,4 @@
-var whatwedo = document.getElementsByClassName("home-section1__block24 layout");
+var whatwedo = document.getElementsByClassName("matsc-section1__block21 layout");
 var toshow1 = document.getElementsByClassName("home-section1__block53 layout");
 var products = document.getElementById("products");
 var toshow2 = document.getElementsByClassName("home-section1__block51 layout");

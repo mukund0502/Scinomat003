@@ -1,5 +1,5 @@
 // var btn = document.getElementsByClassName("contact-section1__block19 layout");
-var whatwedo = document.getElementsByClassName("home-section1__block24 layout");
+var whatwedo = document.getElementsByClassName("upcoming-section1__group4 layout");
 var toshow1 = document.getElementsByClassName("home-section1__block53 layout");
 var products = document.getElementById("products");
 var toshow2 = document.getElementsByClassName("home-section1__block51 layout");
