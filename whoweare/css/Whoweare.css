@@ -1,4 +1,106 @@
-/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.connect{
+  position: absolute;
+  right: -504px;
+  width: 504px;
+  z-index: 1;
+  height: 900px;
+  background-color: #e2e8f0;
+  display: none;
+}
+.objects{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 40%;
+  
+}
+
+.closekey{
+  /* margin-left: auto; */
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: fit-content;
+  /* margin: 30px; */
+}
+
+.home-section1__hero-title31.layout {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 57.33px;
+line-height: 67px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary blue */
+color: #0F75BC;
+
+  position: relative;
+  /* margin-top: 300px; */
+  margin: 20px auto;
+  /* top: 242px; */
+  height: 67px;
+  width: 135px;
+  
+}
+
+.home-section1__highlights63.layout {
+  position: relative;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19.2px;
+line-height: 24px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+  /* top: 309px; */
+  margin: 20px auto;
+  height: 24px;
+  width: 113px;
+  margin: auto;
+  /* right: -625px; */
+}
+
+.latestupdate{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.home-section1__block55.layout{
+  border: 1px solid;
+  padding: 10px;
+  margin: 0px auto;
+  margin-top: 30%;
+  width: fit-content;
+  color: #000000;
+  
+}
+.home-section1__block55.layout a{
+  color: black;
+}
 .whoweare-main {
   display: flex;
   flex-direction: column;
@@ -7,7 +109,6 @@
 .whoweare-main.layout {
   position: relative;
   overflow: hidden;
-  min-height: 3439px;
   flex-shrink: 0;
 }
 .whoweare-section1__section1 {
@@ -37,22 +138,23 @@
   background: var(--src) center center/contain no-repeat;
 }
 .whoweare-section1__cover-block.layout {
+  background-size: cover;
   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  margin: 0px 0px 195px;
+  margin: 0px 0px ;
 }
 .whoweare-section1__block34 {
   display: flex;
   flex-direction: column;
 }
 .whoweare-section1__block34.layout {
-  position: absolute;
+  position: relative;
+  top: -70px;
+  margin: 0px auto;
   height: 276px;
-  bottom: -180px;
   width: 1324px;
-  right: 58px;
 }
 .whoweare-section1__block35 {
   display: flex;
@@ -170,12 +272,12 @@
 }
 .whoweare-section1__block32.layout {
   position: relative;
-  height: 472px;
+  height: fit-content;
   width: 758px;
-  min-width: 758px;
-  margin: 10px 0px 0px 10px;
+  margin: auto;
 }
 .whoweare-section1__block33 {
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
@@ -263,8 +365,7 @@
   position: absolute;
   top: 0px;
   height: 60px;
-  width: 1441px;
-  right: -1px;
+  width: 100%;
 }
 .whoweare-section1__block40-item {
   display: flex;
@@ -1102,7 +1203,7 @@
 .whoweare-section5__block7.layout {
   position: relative;
   height: 203px;
-  width: 1440px;
+  width: 100%;
   min-width: 1440px;
   margin: 77px 0px 0px;
 }
@@ -1167,10 +1268,17 @@
   }
 }
 .whoweare-section5__block8-item1 {
+
   display: flex;
   flex-direction: column;
   position: relative;
-  flex: 0 1 501px;
+  bottom: 110px;
+  /* left: 1px; */
+  /* left: 1px; */
+  /* right: 1px; */
+  /* z-index: 1; */
+  /* flex: 0 1 501px; */
+  padding-left: auto;
 }
 @media (max-width: 1919px) {
   .whoweare-section5__block8-item1 {
@@ -1183,20 +1291,26 @@
 }
 .whoweare-section5__block10.layout {
   position: relative;
+  left: 1px;
+  margin: 0px 0px 0px auto;
   height: -webkit-min-content;
   height: -moz-min-content;
-  height: min-content;
-  margin: 0px 62px 0px 0px;
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
 }
 .whoweare-section5__block11 {
   display: flex;
 }
 .whoweare-section5__block11.layout {
-  position: relative;
+  position: absolute;
   height: -webkit-min-content;
   height: -moz-min-content;
-  height: min-content;
+  /* height: min-content; */
   margin: 10px;
+  bottom: 10px;
+  right: 1px;
+  /* width: fit-content; */
 }
 .whoweare-section5__block11-item {
   display: flex;

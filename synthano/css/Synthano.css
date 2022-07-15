@@ -1,4 +1,108 @@
-/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.connect{
+  position: absolute;
+  right: -504px;
+  width: 504px;
+  z-index: 1;
+  height: 900px;
+  background-color: #e2e8f0;
+  display: none;
+}
+.objects{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 40%;
+  
+}
+
+.closekey{
+  /* margin-left: auto; */
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: fit-content;
+  /* margin: 30px; */
+}
+
+.home-section1__hero-title31.layout {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 57.33px;
+line-height: 67px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary blue */
+color: #0F75BC;
+
+  position: relative;
+  /* margin-top: 300px; */
+  margin: 20px auto;
+  /* top: 242px; */
+  height: 67px;
+  width: 135px;
+  
+}
+
+.home-section1__highlights63.layout {
+  position: relative;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19.2px;
+line-height: 24px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+  /* top: 309px; */
+  margin: 20px auto;
+  height: 24px;
+  width: 113px;
+  margin: auto;
+  /* right: -625px; */
+}
+
+.latestupdate{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.home-section1__block55.layout{
+  border: 1px solid;
+  padding: 10px;
+  margin: 0px auto;
+  margin-top: 30%;
+  width: fit-content;
+  color: #000000;
+  
+}
+.home-section1__block55.layout a{
+  color: black;
+}
+
+
 .synthano-main {
   display: flex;
   flex-direction: column;
@@ -325,6 +429,7 @@
   display: flex;
 }
 .synthano-section1__flex1.layout {
+  z-index: 1;
   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
@@ -407,24 +512,26 @@
 .synthano-section1__box1 {
   background-color: #12212e;
 }
-.synthano-section1__box1.layout {
+/* .synthano-section1__box1.layout {
+  background: linear-gradient(0deg, #12212E 70%, white 30%);
   position: absolute;
   top: 0px;
-  height: 409px;
+  height: 600px;
   left: 0px;
   right: 0px;
-  margin: 486px 0px 0px;
-}
+  margin: 300px 0px 0px;
+} */
 .synthano-section1__block25 {
   display: flex;
   flex-direction: column;
 }
 .synthano-section1__block25.layout {
-
+  padding: 40px 100px 30px 50px ;
+  background: linear-gradient(0deg, #12212E 67%, white 33%);
   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
-  height: min-content;
+  height: fit-content;
   width: 95%;
   margin: 357px 24.43% 38px 5.43%;
 }
@@ -444,6 +551,10 @@
   display: flex;
 }
 .synthano-section1__block27.layout {
+  margin-top: 0px;
+  color: #0f75bc;
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
