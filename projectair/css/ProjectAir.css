@@ -281,7 +281,7 @@ color: #000000;
 .project-air-main.layout {
   position: relative;
   overflow: hidden;
-  min-height: 5551px;
+  min-height: fit-content
   flex-shrink: 0;
 }
 .project-air-section1__section1 {
@@ -1247,30 +1247,36 @@ color: #000000;
 .project-air-section3__content-box2.layout {
   position: absolute;
   top: 23px;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
   bottom: 6px;
   left: 0px;
   right: 0px;
+  height: 330px;
+
 }
 .project-air-section3__image13 {
   background: var(--src) center center/contain no-repeat;
 }
 .project-air-section3__image13.layout {
-  position: relative;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   height: 96px;
   width: 120px;
   min-width: 120px;
-  margin: 112px auto 0px;
+  margin: auto;
 }
 .project-air-section3__box7 {
   background-color: #0f75bc;
 }
 .project-air-section3__box7.layout {
-  position: relative;
+  transition: all;
+  transition-duration: 1s;
+  position: absolute;
+  bottom: 0px;
   height: 16px;
-  margin: 106px 0px 0px;
+  /* margin: 0px; */
 }
 .project-air-section3__subtitle1 {
   font: 700 23.0400009155px/1.04 "Roboto", Helvetica, Arial, serif;
@@ -1278,12 +1284,22 @@ color: #000000;
   letter-spacing: 0px;
   opacity: 0;
 }
-.project-air-section3__subtitle1.layout {
+.check{
+  color: white;
+  font-style: normal;
   position: relative;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-  width: 75.65%;
+  top: 40%;
+  bottom: 0px;
+  /* align-items: center; */
+  margin: 20px;
+  font-size: large;
+
+}
+.project-air-section3__subtitle1.layout {
+  color: rgb(70, 50, 50);
+  position: relative;
+  top: -400px;
+  z-index: 100;
   margin: 287px 10.73% 0px 13.61%;
 }
 .project-air-section3__flex10-spacer {
@@ -1307,6 +1323,7 @@ color: #000000;
   height: -moz-min-content;
   height: min-content;
   bottom: 12px;
+  height: 330px;
   left: 0px;
   right: 0px;
 }
@@ -1320,12 +1337,16 @@ color: #000000;
   flex-direction: column;
 }
 .project-air-section3__block30.layout {
-  position: relative;
+  position: absolute;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+  top: 330px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   width: 28.01%;
-  margin: 99px auto 0px;
+  margin: auto;
 }
 .project-air-section3__image14 {
   background: var(--src) center center/contain no-repeat;
@@ -1378,9 +1399,12 @@ color: #000000;
   margin: 46px 0px 57px;
 }
 .project-air-section3__box7.layout1 {
-  position: relative;
+  position: absolute;
+  bottom: 0px;
   height: 16px;
-  margin: 108px 0px 0px;
+  transition: all;
+  transition-duration: 1s;
+  /* margin: 108px 0px 0px; */
 }
 .project-air-section3__subtitle1.layout1 {
   position: relative;
@@ -1406,6 +1430,7 @@ color: #000000;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+  height: 330px;
   margin: 29px 2px 12px 0px;
 }
 .project-air-section3__image18 {
@@ -1428,7 +1453,8 @@ color: #000000;
 }
 .project-air-section3__box7.layout2 {
   position: absolute;
-  top: 0px;
+  bottom: 0px;
+  transition: all 1s;
   height: 16px;
   left: 0px;
   right: 0px;
@@ -1806,7 +1832,10 @@ color: #000000;
   width: 100%;
   margin: 0px 0px;
 }
+
 .project-air-section5__flex16-item {
+  margin: 20px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -1832,6 +1861,8 @@ color: #000000;
 }
 .project-air-section5__highlights2.layout {
   position: relative;
+  top: 100px;
+  width: 30vw;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
@@ -1851,10 +1882,7 @@ color: #000000;
 .project-air-section5__cover-block5.layout {
   position: absolute;
   top: 99px;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-  bottom: 1px;
+  height: 360px;
   left: 0px;
   right: 0px;
 }
@@ -1862,9 +1890,11 @@ color: #000000;
   background-color: #0f75bc;
 }
 .project-air-section5__box10.layout {
-  position: relative;
+  position: absolute;
+  transition: all 1s;
+  bottom: 0px;
   height: 15px;
-  margin: 341px 0px 0px;
+  /* margin: 341px 0px 0px; */
 }
 .project-air-section5__highlights3 {
   display: flex;
@@ -1892,16 +1922,15 @@ color: #000000;
 }
 .project-air-section5__group.layout1 {
   position: relative;
-  height: 357px;
-  margin: 218px 0px 12px 12px;
-}
-.project-air-section5__cover-block5.layout1 {
-  position: absolute;
-  top: 0px;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  bottom: 1px;
+
+}
+.project-air-section5__cover-block5.layout1 {
+  position: absolute;
+  top: 220px;
+  height: 360px;
   left: 0px;
   right: 0px;
 }
