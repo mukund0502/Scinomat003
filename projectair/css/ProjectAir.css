@@ -281,7 +281,7 @@ color: #000000;
 .project-air-main.layout {
   position: relative;
   overflow: hidden;
-  min-height: fit-content
+  min-height: fit-content;
   flex-shrink: 0;
 }
 .project-air-section1__section1 {
